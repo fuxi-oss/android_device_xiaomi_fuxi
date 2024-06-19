@@ -103,6 +103,9 @@ function blob_fixup() {
         *)
             return 1
             ;;
+        vendor/etc/seccomp_policy/qwesd@2.0.policy)
+            echo "pipe2: 1" >> "${2}"
+            ;;
     esac
 
     return 0
