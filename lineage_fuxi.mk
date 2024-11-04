@@ -9,15 +9,20 @@ $(call inherit-product, build/make/target/product/full_base_telephony.mk)
 $(call inherit-product, build/make/target/product/core_64_bit_only.mk)
 
 # Inherit device-specific configurations
-$(call inherit-product, device/xiaomi/socrates/device.mk)
+$(call inherit-product, device/xiaomi/fuxi/device.mk)
 
 # Inherit LineageOS configurations
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_socrates
-PRODUCT_DEVICE := socrates
-PRODUCT_MODEL := Redmi K60 Pro
-PRODUCT_BRAND := Redmi
+## Device identifier
+PRODUCT_DEVICE := fuxi
+PRODUCT_NAME := lineage_fuxi
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := 2211133G
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := Redmi/socrates/socrates:14/UKQ1.230804.001/V816.0.11.0.UMKCNXM:user/release-keys
+PRODUCT_SYSTEM_NAME := 2211133G
+PRODUCT_SYSTEM_DEVICE := 2211133G
+
+# GMS
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
