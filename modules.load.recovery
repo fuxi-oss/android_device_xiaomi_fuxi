@@ -18,11 +18,9 @@ phy-qcom-ufs-qmp-v4.ko
 phy-qcom-ufs-qmp-v4-khaje.ko
 phy-qcom-ufs-qmp-v4-lahaina.ko
 phy-qcom-ufs-qmp-v4-kona.ko
-phy-qcom-ufs-qmp-v4-crow.ko
 phy-qcom-ufs-qrbtc-sdm845.ko
 pinctrl-msm.ko
 pinctrl-kalama.ko
-pinctrl-crow.ko
 pinctrl-spmi-gpio.ko
 pinctrl-spmi-mpp.ko
 pwm-qti-lpg.ko
@@ -31,16 +29,10 @@ clk-qcom.ko
 clk-dummy.ko
 gdsc-regulator.ko
 clk-rpmh.ko
-gcc-crow.ko
 gcc-kalama.ko
-gpucc-crow.ko
-videocc-crow.ko
 videocc-kalama.ko
-camcc-crow.ko
 camcc-kalama.ko
-dispcc-crow.ko
 dispcc-kalama.ko
-debugcc-crow.ko
 debugcc-kalama.ko
 gpucc-kalama.ko
 tcsrcc-kalama.ko
@@ -267,7 +259,6 @@ nvmem_qcom-spmi-sdam.ko
 icc-test.ko
 icc-bcm-voter.ko
 qnoc-kalama.ko
-qnoc-crow.ko
 icc-rpmh.ko
 qnoc-qos.ko
 icc-debug.ko
