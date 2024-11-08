@@ -99,7 +99,6 @@ qcom_ramdump.ko
 panel_event_notifier.ko
 dmesg_dumper.ko
 sys_pm_vx.ko
-plh_scmi.ko
 qdss_bridge.ko
 qcom_cpu_vendor_hooks.ko
 mem-offline.ko
@@ -118,11 +117,9 @@ qcom_va_minidump.ko
 qcom_logbuf_vh.ko
 qbt_handler.ko
 hung_task_enh.ko
-qfprom-sys.ko
 debug_symbol.ko
 qti-fixed-regulator.ko
 proxy-consumer.ko
-qpnp-amoled-regulator.ko
 rpmh-regulator.ko
 stub-regulator.ko
 debug-regulator.ko
@@ -143,7 +140,6 @@ qti-regmap-debugfs.ko
 zram.ko
 qseecom_proxy.ko
 hwid.ko
-qcom-i2c-pmic.ko
 qcom-spmi-pmic.ko
 qcom_dma_heaps.ko
 ufs_qcom.ko
@@ -217,12 +213,10 @@ sdhci-msm.ko
 cqhci.ko
 leds-qti-flash.ko
 leds-qti-tri-led.ko
-leds-qpnp-vibrator-ldo.ko
 pmu_vendor.ko
 c1dcvs_vendor.ko
 memlat_vendor.ko
 cpufreq_stats_vendor.ko
-plh_vendor.ko
 qcom-scm.ko
 ipa_fmwk.ko
 ep_pcie_drv.ko
@@ -251,7 +245,6 @@ gh_mem_notifier.ko
 gunyah.ko
 qcom-spmi-adc5-gen3.ko
 qcom-vadc-common.ko
-qti-glink-adc.ko
 industrialio-buffer-cb.ko
 qcom_llcc_pmu.ko
 nvmem_qfprom.ko
@@ -307,4 +300,3 @@ sync_fence.ko
 hdcp_qseecom_dlkm.ko
 msm-mmrm.ko
 msm_ext_display.ko
-fts_touch_spi.ko
