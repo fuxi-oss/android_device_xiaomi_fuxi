@@ -132,7 +132,8 @@ BOOT_KERNEL_MODULES += \
     gpr_dlkm.ko \
     spf_core_dlkm.ko \
     adsp_loader_dlkm.ko \
-    qti_battery_charger.ko
+    qti_battery_charger.ko \
+    fts_touch_spi.ko
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.vendor_dlkm))
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.first_stage))
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD  := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))

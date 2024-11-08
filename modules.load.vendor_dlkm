@@ -272,3 +272,4 @@ radio-i2c-rtc6226-qca.ko
 ipanetm.ko
 cs35l41_dlkm
 goodix_fod.ko
+fts_touch_spi.ko
