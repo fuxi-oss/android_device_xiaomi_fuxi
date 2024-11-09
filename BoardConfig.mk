@@ -171,10 +171,8 @@ TARGET_BOOTLOADER_BOARD_NAME := kalama
 # Power
 TARGET_TAP_TO_WAKE_NODE := /sys/devices/platform/goodix_ts.0/double_tap_enable
 
-# PowerShare
-SOONG_CONFIG_NAMESPACES += XIAOMI_POWERSHARE
-SOONG_CONFIG_XIAOMI_POWERSHARE := WIRELESS_TX_ENABLE_PATH
-SOONG_CONFIG_XIAOMI_POWERSHARE_WIRELESS_TX_ENABLE_PATH := /sys/class/qcom-battery/reverse_chg_mode
+# Powershare
+TARGET_POWERSHARE_PATH := /sys/class/qcom-battery/reverse_chg_mode
 
 # Recovery
 BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE := true
